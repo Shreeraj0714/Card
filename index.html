@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card - By Veda</title>
+    <style>
+        .box{
+            width: 400px;
+            height: auto;
+            border: 2px solid black;
+            border-radius: 14px;
+            margin-left:  33vw;
+            padding: 6px;
+            box-shadow: 10px 10px 10px 10px grey;
+            
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+        .div1 {
+            
+            padding-bottom: 20px;
+            margin: 0px;
+            
+            /* Ensures the image stays within rounded borders */
+        }
+        
+        .div1 img {
+            width: 100%;  /* Ensures the image scales correctly */
+            height: auto; /* Maintains aspect ratio */
+            border-radius: 14px; /* Applies rounded corners */
+        }
+        
+
+        .span1{
+            color: gray;
+            padding: 2px;
+            margin: 2px;
+            border-radius: 13px;
+            border: 0.2px solid gray;
+            margin-left: 20px;
+            text-align: center;
+        }
+        .span2{
+            color: gray;
+            padding: 2px;
+            margin: 2px;
+            border-radius: 15px;
+            border: 1px  solid gray;
+            margin-left: 20px;
+            text-align: center;
+        }
+        .p1{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            color: gray;
+        }
+        .h2_1{
+            padding-left: 20px;
+        }
+
+        .read-more-container {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            align-items: center; /* Centers vertically */
+             /* Space above the box */
+        }
+        
+        
+        
+        .read-more-btn {
+            background-color: rgb(232, 230, 230); /* Blue button */
+            color: rgb(0, 157, 255);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .read-more-btn:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        
+        ::selection{
+            background-color: black;
+            color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div  class="div1">
+            <img height="230" width="380" src="https://static.vecteezy.com/system/resources/previews/033/424/807/large_2x/a-man-sitting-on-the-shore-of-a-lake-at-sunset-ai-generated-free-photo.jpg" alt="image">
+        </div>
+        <span class="span1">
+            Neature
+        </span>
+        <span class="span2"> 
+            Lake
+        </span>
+        <h2 class="h2_1">Lago di Braies</h2>
+        <p class="p1">The Pragser Wildsee, or Lake Prags, Lake Braies (Italian: Lago di Braies; German: Pragser Wildsee) is a natural lake in the Prags Dolomites in South Tyrol, Italy. It belongs to the municipality of Prags which is located in the Prags Valley.
+            While the lake earned the nickname "Pearl of the Alps" due to its increasing popularity among tourists, tourism had become excessive as of 2020, with 17,000 people visiting the area on a single summer day. As of the summer 2023, vehicle access was restricted because of overtourism.</p>
+        <div class="read-more-container">
+            <div >
+                <button class="read-more-btn">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Pragser_Wildsee">Read More</a>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
